@@ -8,7 +8,7 @@ public class Calculator {
         return input;
     }
 
-    public static double sum () {
+    public static double sum() {
         System.out.println("Введите первое число и нажмите enter:");
         double num1 = readNum();
 
@@ -19,4 +19,44 @@ public class Calculator {
 
         return result;
     }
+
+    public static double mult() {
+        System.out.println("Введите первое число и нажмите enter:");
+        double num1 = readNum();
+
+        System.out.println("Введите второе число и нажмите enter:");
+        double num2 = readNum();
+
+        double result = num1 * num2;
+
+        return result;
+
+    }
+
+    public static double div() {
+        System.out.println("Введите первое число и нажмите enter:");
+        double num1 = readNum();
+
+        System.out.println("Введите второе число и нажмите enter:");
+        double num2 = readNum();
+
+        double result = num1 / num2;
+
+        return result;
+    }
+
+    public static double sub() {
+        System.out.println("Введите первое число и нажмите enter:");
+        double num1 = readNum();
+
+        System.out.println("Введите второе число и нажмите enter:");
+        double num2 = readNum();
+
+        double result = num1 - num2;
+
+        return result;
+
+
+    }
+
 }
